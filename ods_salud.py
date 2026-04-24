@@ -11,7 +11,7 @@ Esta aplicación utiliza **Machine Learning** para predecir la relacion de las h
 afecta en el índice de masa corporal, alineado con el **ODS 3: Salud y bienestar**.
 """)
 # Insertamos una imagen
-st.image("corales.jpg", caption="Horas de ejercicio e índice de masa corporal.")
+st.image("imc imagen.png", caption="Horas de ejercicio e índice de masa corporal.")
 
 #st.header('Datos personales')
 
