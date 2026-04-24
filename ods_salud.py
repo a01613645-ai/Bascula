@@ -17,12 +17,12 @@ st.image("imc imagen.png", caption="Horas de ejercicio e índice de masa corpora
 
 # Definimos cómo ingresará los datos el usuario
 # Usaremos un deslizador
-st.sidebar.header("Parámetros Ambientales")
+st.sidebar.header("Relacion de horas y (IMC)")
 # Definimos los parámetros de nuestro deslizador:
   # Límite inferior: 24°C. Es el límite inferior donde los arrecifes tropicales suelen estar cómodos
   # Límite superior: 35°C. La mayoría de los corales mueren o se blanquean totalmente mucho antes de llegar a esa temperatura
   # Valor inicial: 28°C. En muchos arrecifes, a partir de los 28.5°C o 29°C comienza el estrés térmico severo
-temp_input = st.sidebar.slider("horas trabajadas ", 1.0, 2.0, 3.0)
+temp_input = st.sidebar.slider("horas de ejercicio ", 1.0, 2.0, 3.0)
 
 # Cargamos el archivo con los datos (.csv)
 df =  pd.read_csv('dataset_ods3_regresion_lineal_correlacion_alta.csv', encoding='latin-1')
